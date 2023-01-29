@@ -7,4 +7,6 @@ func main() {
 
 	hand.print()
 	RemainingCards.print()
+
+	cards.SavetoFile("my_cards")
 }
